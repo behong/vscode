@@ -71,14 +71,15 @@
         <script>
         
         $('form').on('submit', function(e){
-            var 입력한값 = document.getElementById('email').value;
-            if(/\s+@\s+.\s+/.test(입력한값) == false ){
-            alert('이메일형식아님');
-            }
-            var 비번 = document.getElementById('password').value;
-            if(/A-Z/.test(비번) == false ){
-            alert('대문자 없는데요');
-            }
+            console.log(e);
+            // var 입력한값 = document.getElementById('email').value;
+            // if(/\s+@\s+.\s+/.test(입력한값) == false ){
+            // alert('이메일형식아님');
+            // }
+            // var 비번 = document.getElementById('password').value;
+            // if(/A-Z/.test(비번) == false ){
+            // alert('대문자 없는데요');
+            // }
         })
 
         
