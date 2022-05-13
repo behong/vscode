@@ -20,25 +20,9 @@
     <link href="drag.css" rel="stylesheet" type="text/css">
 </head>
 
-    <body class="light">
+    <body>
 
-        <div class="black-bg">
-            <div class="white-bg">
-            <h4>로그인하세요</h4>
-            <form action="success.html">
-            <div class="my-3">
-            <input type="text" class="form-control" id="email">
-            </div>
-            <div class="my-3">
-            <input type="password" class="form-control" id="password">
-            </div>
-            <button type="submit" class="btn btn-primary" id="send">전송</button>
-            <button type="button" class="btn btn-danger" id="close">닫기</button>
-            </form>
-            </div>
-        </div>
-        
-            <nav class="navbar navbar-light bg-light">
+             <nav class="navbar navbar-light bg-light">
                 <div class="container-fluid">
                 <span class="navbar-brand">Navbar</span>
                 <span class="badge bg-black">Dark 🔄</span>
@@ -79,18 +63,6 @@
         <button class="slide-3">3</button>
 
         <script>
-        alert('22');
-        $('form').on('submit', function(e){
-            console.log(e);
-            // var 입력한값 = document.getElementById('email').value;
-            // if(/\s+@\s+.\s+/.test(입력한값) == false ){
-            // alert('이메일형식아님');
-            // }
-            // var 비번 = document.getElementById('password').value;
-            // if(/A-Z/.test(비번) == false ){
-            // alert('대문자 없는데요');
-            // }
-        });
 
         $('#login').on('click', function(){
             $('.black-bg').addClass('show-modal');
