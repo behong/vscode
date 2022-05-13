@@ -23,14 +23,21 @@
         padding: 30px;
 }
 
-.slide-container{ width:300vw; transition: all 1s; }
-.slide-box{ width:100vw; float:left; }
+.slide-container{ 
+        width:300vw; 
+        transition: all 1s; 
+}
+.slide-box{ 
+
+        width:100vw; 
+        float:left; 
+}
 .slide-box img{ width:100%; }
 
 .hide { display: none;}
 
 .show-modal{ visibility:visible; opacity:1; }
 
-.main-bg{ padding:100px 20px; background:lightgrey; }
+/* .main-bg{ padding:100px 20px; background:lightgrey; } */
 
 .dark{ background:black; color:white; }
