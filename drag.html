@@ -80,24 +80,19 @@
             // if(/A-Z/.test(비번) == false ){
             // alert('대문자 없는데요');
             // }
-        })
+        });
 
-        
-        $('.slide-2').on('click', function() {
-            $('.slide-container').css('transform', 'translateX(-100vw)');
-        })
-        
         $('#login').on('click', function(){
             $('.black-bg').addClass('show-modal');
-        })
+        });
         
         $('#close').on('click', function(){
             $('.black-bg').fadeOut();
-        })
+        });
         
         document.querySelector('.navbar-toggler').addEventListener('click', function(){
             document.querySelectorAll('.list-group')[0].classList.toggle('show');
-        })
+        });
 
         var pic = 1;
 
