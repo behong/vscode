@@ -31,7 +31,7 @@
         width:100vw; 
         float:left; 
 }
-.slide-box img{ width:100; }
+.slide-box img{ width:100px; }
 
 .hide { display: none;}
 
