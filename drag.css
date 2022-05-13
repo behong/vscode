@@ -29,6 +29,8 @@
         .slide-box{ width:100vw; float:left; }
         .slide-box img{ width:100%; }
         
+        .hide { display: none;}
+        
         .show-modal{ visibility:visible; opacity:1; }
         
         .main-bg{ padding:100px 20px; background:lightgrey; }
