@@ -100,7 +100,7 @@
         // 마우스 움직일ㄸ
         $('.slide-box').eq(0).on('mousemove',function(e){
 
-            var moveX = (stClientX - e.clientX);
+            var moveX = (e.clientX - stClientX );
             if( 눌렀 == true ){
                 $('.slide-container').css('transform',`translateX(${moveX}px)`);
             }
