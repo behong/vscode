@@ -24,14 +24,14 @@
 }
 
 .slide-container{ 
-        width:300vw; 
+        width:300Vw; 
         transition: all 1s; 
 }
 .slide-box{ 
-        width:100vw; 
+        width:100Vw; 
         float:left; 
 }
-.slide-box img{ width:100px; }
+.slide-box img{ width:100%; }
 
 .hide { display: none;}
 
