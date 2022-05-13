@@ -92,13 +92,13 @@
         var stClientX = 0;
         var mouseDownOn = false;
         // 마우스로 클릭 했을때..
-        $(',slide-box').eq(0).on('mousedown',function(e){
+        $('.slide-box').eq(0).on('mousedown',function(e){
             stClientX = e.clientX;
             mouseDownOn = true;
         })
 때
         // 마우스 움직일ㄸ
-        $(',slide-box').eq(0).on('mousemove',function(e){
+        $('.slide-box').eq(0).on('mousemove',function(e){
             //이동 좌표
             var moveX = (stClientX - e.clientX)
             if( mouseDownOn){
